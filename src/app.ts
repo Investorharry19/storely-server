@@ -21,10 +21,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://storely-backend-production-07d7.up.railway.app",
-    "https://storely-frontend.vercel.app",
-    "https://www.appstorely.com",
+    "https://storely-server.onrender.com",
   ],
   credentials: true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
