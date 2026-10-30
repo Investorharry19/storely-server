@@ -19,7 +19,6 @@ import paymentRoutes from "./modules/payments/payment.routes";
 const app = express();
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
     "http://localhost:3000",
     "https://storely-server.onrender.com",
     "https://storely-web-pi.vercel.app",
