@@ -22,6 +22,8 @@ const corsOptions = {
     "http://localhost:5173",
     "http://localhost:3000",
     "https://storely-server.onrender.com",
+    "https://storely-web-pi.vercel.app",
+    "https://storely.amehhendrix.online",
   ],
   credentials: true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",

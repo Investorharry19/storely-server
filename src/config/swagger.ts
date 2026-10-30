@@ -13,7 +13,7 @@ const options: any = {
       {
         url:
           env.production == "true"
-            ? "https://storely-backend-production-07d7.up.railway.app/api/v1"
+            ? "https://storely-server.onrender.com/api/v1"
             : "http://localhost:5000/api/v1",
       },
     ],
