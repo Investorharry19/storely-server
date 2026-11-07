@@ -44,4 +44,10 @@ export const createBusinessSchema = z.object({
   publicId: z.string().trim().optional(),
 });
 
-export const updateBusinessSchema = createBusinessSchema.partial();
+export const updateBusinessSchema = createBusinessSchema.partial().extend({
+  description: createBusinessSchema.shape.description.nullable(),
+  phone: createBusinessSchema.shape.phone.nullable(),
+  email: createBusinessSchema.shape.email.nullable(),
+  website: createBusinessSchema.shape.website.nullable(),
+  location: createBusinessSchema.shape.location.nullable(),
+});
